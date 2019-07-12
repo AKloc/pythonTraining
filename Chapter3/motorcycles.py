@@ -33,3 +33,7 @@ print(motorcycles)
 # motorcycles.remove('suzuki')
 
 # NOTE: remove() only removes the first occurence of the item in the list.
+
+# Let's see an index of out range exception
+motorcycles = []
+# print(motorcycles[0])

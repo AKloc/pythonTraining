@@ -25,7 +25,7 @@ print(guest_list[3] + invitation)
 print(guest_list[4] + invitation)
 
 # Whoops, smaller table.
-print("The plot thickens... I have a smaller table. I'm horrible.")
+print("The plot thickens... I have a smaller table. I'm a pretty horrible host.")
 print("Sorry, " + guest_list.pop() + ", you can't go anymore.")
 print("Sorry, " + guest_list.pop() + ", you can't go anymore.")
 print("Sorry, " + guest_list.pop() + ", you can't go anymore.")
