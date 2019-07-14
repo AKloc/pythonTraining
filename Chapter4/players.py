@@ -7,3 +7,8 @@ print(players [:3])
 print(players [3:])
 # How about getting the last two players? Use -2 as the index.
 print(players[-2:])
+
+# We can use slices to drive for loops, too.
+print("Here are the first four players of my team!")
+for player in players[:4]:
+    print(player.title())
