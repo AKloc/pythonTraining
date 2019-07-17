@@ -1,12 +1,13 @@
-# Fun fact: this would be valid JSON if it used double quotes.
 favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python'
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
 }
 
-print("Sarah's favorite language is " +
-    favorite_languages['sarah'].title() +
-    ".")
-
+# Don't forget about this trick. We can iterate through the key
+#   and values at the same time by using .items().
+for name, languages in favorite_languages.items():
+    print(name + "'s favorite languages are: ")
+    for language in languages:
+        print(language)
