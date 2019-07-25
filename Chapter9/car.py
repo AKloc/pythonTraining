@@ -20,6 +20,10 @@ class Car():
             print("You can't roll back the mileage.")
         else:
             self.odometer_reading = mileage
+    
+    def fill_gas_tank(self):
+        print("Filled the gas tank")
+
 
 # my_new_car = Car('audi', 'a4', 2016)
 # print(my_new_car.get_descriptive_name())

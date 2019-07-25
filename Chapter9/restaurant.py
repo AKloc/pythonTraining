@@ -14,12 +14,12 @@ class Restaurant():
         print("The restaurant is open!")
 
 # Don't need to use "new" here or anything.
-como = Restaurant("Como's", "Italian")
-como.describe_restaurant()
-como.open_restaurant()
+# como = Restaurant("Como's", "Italian")
+# como.describe_restaurant()
+# como.open_restaurant()
 
-teso = Restaurant("Teso's", "Pizza")
-teso.describe_restaurant()
+# teso = Restaurant("Teso's", "Pizza")
+# teso.describe_restaurant()
 
-ding_how = Restaurant("Ding How", "Chinese")
-ding_how.describe_restaurant()
+# ding_how = Restaurant("Ding How", "Chinese")
+# ding_how.describe_restaurant()
