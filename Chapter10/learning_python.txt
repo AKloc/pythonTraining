@@ -1,0 +1,4 @@
+In Python, you can write an if statement.
+In Python, you can use OOP.
+In Python, you can open files.
+In Python, you can write web services.
